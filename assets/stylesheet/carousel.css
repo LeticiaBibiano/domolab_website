@@ -1,0 +1,38 @@
+.carousel-item {
+
+    background: gray;
+}
+
+.carousel-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 20px;
+}
+
+.carousel-item p {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-inner h1 {
+    font-weight: bolder;
+    color: rgb(243, 242, 242);
+    width: fit-content;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-inner a {
+  color: rgb(0, 0, 0);
+  background-color: rgba(20, 185, 214, 0.753);
+  border-radius: 30px;
+  border: solid rgb(0, 0, 0);
+  font-weight: bolder;
+  
+}
+
+.carousel-inner {
+  margin-top: 10px;
+}
