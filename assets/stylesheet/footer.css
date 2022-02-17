@@ -12,3 +12,7 @@
 footer h6 {
     border: inset 1px white;
 }
+
+a {
+  text-decoration: none;
+}
