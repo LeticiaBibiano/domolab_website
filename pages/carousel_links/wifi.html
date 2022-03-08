@@ -20,14 +20,15 @@
   <link rel="stylesheet" href="/assets/stylesheet/footer.css">
   <link rel="stylesheet" href="/assets/stylesheet/navbar.css">
   <link rel="stylesheet" href="/assets/stylesheet/global.css">
+  <link rel="stylesheet" href="/assets/stylesheet/images.css">
 
 
-  <title>DOMOLAB - Contato</title>
+  <title>DOMOLAB - Redes WiFi</title>
 </head>
 
 <body>
   
-  <div class="container-fluid bg-dark" >
+  <div class="container-fluid bg-dark">
     <!-- Navbar begin -->
     <div class="container" style="border-bottom: 2px solid #00abe1;">
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -45,13 +46,13 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav ">
               <li class="nav-item align-self-center">
-                <a class="nav-link active mb-0 h6" href="about.html">Quem somos</a>
+                <a class="nav-link active mb-0 h6" href="../nav_links/about.html">Quem somos</a>
               </li>
               <li class="nav-item align-self-center">
-                <a class="nav-link active mb-0 h6" href="services.html">Serviços</a>
+                <a class="nav-link active mb-0 h6" href="../nav_links/services.html">Serviços</a>
               </li>
               <li class="nav-item align-self-center">
-                <a class="nav-link active mb-0 h6" href="contact.html">Contato</a>
+                <a class="nav-link active mb-0 h6" href="../nav_links/contact.html">Contato</a>
               </li>
             </ul>
           </div>
@@ -61,26 +62,57 @@
     <!-- Navbar end -->
 
     <!-- Content begin -->
-    <div class="container text-center">
-      <div class="mt-5">
-        <h1> Nos envie um e-mail!</h1>
-        <h2 style="color: aliceblue;"> contato@domolabautomacao.com.br </h2>
+
+    <div class="d-flex flex-column align-items-center">
+
+      <h1 class="mt-3 mb-3"> Redes WiFi </h1>
+      <div class="container align-items-center">
+        <!-- Session 1 / Roteadores -->
+        <div id="router" class="row mb-4" style="border-bottom: 1px solid #00abe1; padding-bottom: 10px;">
+          <div class="col">                       
+            <img id="Image" src="../../assets/image/wifi.jpg" alt="Automação Residencial Casa inteligente">
+          </div>
+          <div class="col align-self-center">
+          
+            <div class="d-flex flex-column align-items-center mb-3 d-sm-block">
+              <h1 class="mt-3">Roteadores</h1>
+              <p id="Text">Roteadores são os responsáveis por distribuir a rede para os Access Points, tendo uma
+                função de gerenciamento, estes equipamentos devem estar bem instalados e
+                dimensionados. Quando necessário através de um roteador com funções avançadas,
+                configure dois links de internet, garantindo assim que em caso de queda de internet
+                em um dos links, o outro assuma automaticamente, proporcionando maior
+                estabilidade na rede e no funcionamento de todos os equipamentos ligados a ela.
+                Configure acesso limitado a alguns usuários, disponibilizando uma rede separada para
+                visitantes, fazendo isso você mantém toda sua rede particular segura.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Session 2 / Access Points -->
+        <div class="row mb-4" style="border-bottom: 1px solid #00abe1; padding-bottom: 25px;">
+          <div class="col align-self-center">
+            <!-- text and button center sm-screen -->
+            <div class="d-flex flex-column align-items-center mb-3 d-sm-block">
+              <h1 class="text-center">Access Points</h1>
+              <p id="Text"> Para o bom funcionamento da casa inteligente uma rede Wi-Fi bem estruturada com
+                equipamentos de qualidade são fundamentais. Quando falamos de Access Points,
+                esses são os responsáveis por rotear a rede e realizar a comunicação com todos os
+                equipamentos da residência. Com tecnologias Mesh ou cabeados, através de um
+                software de mapeamento os Access Points são posicionados estrategicamente pela
+                residência, garantindo uma boa cobertura e entregando toda velocidade de conexão
+                que seu smartphone e os equipamentos de automação necessitam para acesso sem
+                travamentos ou perda de sinal.</p>
+            </div>
+          </div>   
+        </div>
       </div>
-      <div class="mt-5">
-        <h1> Ligue para a gente!</h1>
-        <h2 style="color: aliceblue;"> +55 19 99696-2977 </h2>
-      </div>
-    </div>
-
-
-
     <!-- Content end -->
     
     <!-- Footer begin -->
     <footer class="bg-dark text-center text-white">
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
-        <section class="mb-4" style="border-bottom: solid rgb(87, 202, 255); padding-bottom: 15px;">
+        <section class="mb-4" style="border-bottom: solid #00abe1; padding-bottom: 15px;">
           <!-- WhatsApp -->
           <a
           class="btn btn-primary btn-custom"
@@ -140,16 +172,16 @@
                   Serviços
                 </h6>
                 <p>
-                  <a href="./../carousel_links/domotic.html" class="text-reset">Automação Residencial</a>
+                  <a href="domotic.html" class="text-reset">Automação Residencial</a>
                 </p>
                 <p>
-                  <a href="./../carousel_links/audio_video.html" class="text-reset">Audio & Vídeo</a>
+                  <a href="audio_video.html" class="text-reset">Audio & Vídeo</a>
                 </p>
                 <p>
-                  <a href="./../carousel_links/security_cameras.html" class="text-reset">Segurança & Câmeras</a>
+                  <a href="security_cameras.html" class="text-reset">Segurança & Câmeras</a>
                 </p>
                 <p>
-                  <a href="./../carousel_links/wifi.html" class="text-reset">Redes Wi-Fi</a>
+                  <a href="wifi.html" class="text-reset">Redes Wi-Fi</a>
                 </p>
               </div>
               <!-- Grid column -->
@@ -161,13 +193,13 @@
                   Links Úteis
                 </h6>
                 <p>
-                  <a href="contact.html" class="text-reset">Faça Seu Orçamento!</a>
+                  <a href="./../nav_links/contact.html" class="text-reset">Faça Seu Orçamento!</a>
                 </p>
                 <p>
-                  <a href="contact.html" class="text-reset">Tire Suas Dúvidas!</a>
+                  <a href="./../nav_links/contact.html" class="text-reset">Tire Suas Dúvidas!</a>
                 </p>
                 <p>
-                  <a href="contact.html" class="text-reset">Ajuda!</a>
+                  <a href="./../nav_links/contact.html" class="text-reset">Ajuda!</a>
                 </p>
               </div>
               <!-- Grid column -->

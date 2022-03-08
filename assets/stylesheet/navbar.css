@@ -82,3 +82,8 @@
 .navbar-toggler.collapsed .toggler-icon {
   background: linear-gradient( 263deg, rgb(1, 204, 255) 0%, rgb(0, 98, 143) 100% );
 }
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+

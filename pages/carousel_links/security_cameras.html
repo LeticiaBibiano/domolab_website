@@ -20,14 +20,15 @@
   <link rel="stylesheet" href="/assets/stylesheet/footer.css">
   <link rel="stylesheet" href="/assets/stylesheet/navbar.css">
   <link rel="stylesheet" href="/assets/stylesheet/global.css">
+  <link rel="stylesheet" href="/assets/stylesheet/images.css">
 
 
-  <title>DOMOLAB - Contato</title>
+  <title>DOMOLAB - Cameras e Seguranca</title>
 </head>
 
 <body>
   
-  <div class="container-fluid bg-dark" >
+  <div class="container-fluid bg-dark">
     <!-- Navbar begin -->
     <div class="container" style="border-bottom: 2px solid #00abe1;">
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -45,13 +46,13 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav ">
               <li class="nav-item align-self-center">
-                <a class="nav-link active mb-0 h6" href="about.html">Quem somos</a>
+                <a class="nav-link active mb-0 h6" href="../nav_links/about.html">Quem somos</a>
               </li>
               <li class="nav-item align-self-center">
-                <a class="nav-link active mb-0 h6" href="services.html">Serviços</a>
+                <a class="nav-link active mb-0 h6" href="../nav_links/services.html">Serviços</a>
               </li>
               <li class="nav-item align-self-center">
-                <a class="nav-link active mb-0 h6" href="contact.html">Contato</a>
+                <a class="nav-link active mb-0 h6" href="../nav_links/contact.html">Contato</a>
               </li>
             </ul>
           </div>
@@ -61,26 +62,92 @@
     <!-- Navbar end -->
 
     <!-- Content begin -->
-    <div class="container text-center">
-      <div class="mt-5">
-        <h1> Nos envie um e-mail!</h1>
-        <h2 style="color: aliceblue;"> contato@domolabautomacao.com.br </h2>
+
+    <div class="d-flex flex-column align-items-center">
+
+      <h1 class="mt-3 mb-3"> Câmera & Seguranca </h1>
+      <div class="container align-items-center">
+        <!-- Session 1 / Camera IP -->
+        <div class="row mb-4" style="border-bottom: 1px solid #00abe1; padding-bottom: 10px;">
+          <div class="col">                       
+            <img id="Image" src="../../assets/image/security_cameras.jpg" alt="Automação Residencial Casa inteligente">
+          </div>
+          <div class="col align-self-center">
+          
+            <div class="d-flex flex-column align-items-center mb-3 d-sm-block">
+              <h1 class="mt-3">Câmeras IP</h1>
+              <p id="Text">Quando falamos em segurança as câmeras de monitoramento são equipamentos
+                essenciais. Determine a câmera ideal para o ambiente instalado, seja internamente ou
+                externamente. Monitore através de seu smartphone em tempo real as gravações e
+                não se preocupe, tudo fica armazenado para consultas quando necessitar. São diversos
+                modelos de câmeras para diversas aplicações, seja aquela de alta qualidade de
+                imagem ou as ideais para ambientes expostos ao tempo. Tudo isso com o melhor da
+                tecnologia IP, que garante uma comunicação de excelência e ótimo custo benefício.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Session 2 / Fechaduras Digitais -->
+        <div id="lock" class="row mb-4" style="border-bottom: 1px solid #00abe1; padding-bottom: 25px;">
+          <div class="col align-self-center">
+            <!-- text and button center sm-screen -->
+            <div class="d-flex flex-column align-items-center mb-3 d-sm-block">
+              <h1>Fechaduras Digitais</h1>
+              <p id="Text"> Com um visual moderno e com muita tecnologia embarcada, a fechadura digital é um
+                dos itens fundamentais para uma casa segura e inteligente. Podendo funcionar através
+                de biometria, senhas numéricas ou cartões de acesso, esses equipamentos fazem com
+                as chaves sejam desnecessárias no seu dia a dia. Cadastre toda a família, crie senhas
+                temporárias para um usuário específico, receba notificações de acesso no seu
+                smartphone, e além disso, caso alguma biometria ou senha não cadastrada seja
+                detectada receba um alerta em tempo real, indicando um acesso não autorizado.</p>
+            </div>
+          </div>
+          <div class="col">                       
+              <img id="Image" src="../../assets/image/lock.jpg" alt="Automação Residencial Casa inteligente">
+          </div>      
+        </div>
+
+        <!-- Session 3 / Detectores de gases e fumaça -->
+        <div id="detector" class="row mb-4" style="border-bottom: 1px solid #00abe1; padding-bottom: 10px;">
+          <div class="col">                       
+            <img id="Image" src="../../assets/image/detector.jpg" alt="Automação Residencial Casa inteligente">
+          </div> 
+          <div class="col align-self-center">
+            <div class="d-flex flex-column align-items-center mb-3 d-sm-block">
+              <h1 class="mt-3">Detectores de Gases<br/>& Fumaça</h1>
+              <p id="Text">Detectores de gás de cozinha e fumaça são itens fundamentais para uma residência
+                segura. Dispare alarmes em caso de detecção e feche as válvulas de gás
+                automaticamente. Além disso tenha histórico de atuações dos detectores em seu
+                smartphone.</p>
+            </div>
+          </div>     
+        </div>
+
+        <!-- Session 4 / Sensor de presença -->
+        <div class="row mb-4" style="border-bottom: 1px solid #00abe1; padding-bottom: 25px;">
+          <div class="col align-self-center">
+            <!-- text and button center sm-screen -->
+            <div class="d-flex flex-column align-items-center mb-3 d-sm-block">
+              <h1 class="text-center">Sensores de Presença & Porta e Janela</h1>
+              <p id="Text">Com um visual discreto sensores são itens fundamentais para deixar uma casa mais
+                segura. Deixe sua casa inteligente monitorar movimentos e detectar abertura de
+                portas e janelas, ativando alertas sonoros e notificações em tempo real em seu
+                smartphone. Ao sair de casa, receba confirmação de que todas as portas e janelas
+                estão fechadas, monitore isso a qualquer momento pelo seu smartphone. Além disso
+                utilize os sensores para execução de cenas inteligentes dentro da automação, por
+                exemplo, acendendo a iluminação quando a porta da sala for aberta, ou quando um
+                movimento for detectado.</p>
+            </div>
+          </div>    
+        </div>
       </div>
-      <div class="mt-5">
-        <h1> Ligue para a gente!</h1>
-        <h2 style="color: aliceblue;"> +55 19 99696-2977 </h2>
-      </div>
-    </div>
-
-
-
     <!-- Content end -->
     
     <!-- Footer begin -->
     <footer class="bg-dark text-center text-white">
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
-        <section class="mb-4" style="border-bottom: solid rgb(87, 202, 255); padding-bottom: 15px;">
+        <section class="mb-4" style="border-bottom: solid #00abe1; padding-bottom: 15px;">
           <!-- WhatsApp -->
           <a
           class="btn btn-primary btn-custom"
@@ -140,16 +207,16 @@
                   Serviços
                 </h6>
                 <p>
-                  <a href="./../carousel_links/domotic.html" class="text-reset">Automação Residencial</a>
+                  <a href="domotic.html" class="text-reset">Automação Residencial</a>
                 </p>
                 <p>
-                  <a href="./../carousel_links/audio_video.html" class="text-reset">Audio & Vídeo</a>
+                  <a href="audio_video.html" class="text-reset">Audio & Vídeo</a>
                 </p>
                 <p>
-                  <a href="./../carousel_links/security_cameras.html" class="text-reset">Segurança & Câmeras</a>
+                  <a href="security_cameras.html" class="text-reset">Segurança & Câmeras</a>
                 </p>
                 <p>
-                  <a href="./../carousel_links/wifi.html" class="text-reset">Redes Wi-Fi</a>
+                  <a href="wifi.html" class="text-reset">Redes Wi-Fi</a>
                 </p>
               </div>
               <!-- Grid column -->
@@ -161,13 +228,13 @@
                   Links Úteis
                 </h6>
                 <p>
-                  <a href="contact.html" class="text-reset">Faça Seu Orçamento!</a>
+                  <a href="./../nav_links/contact.html" class="text-reset">Faça Seu Orçamento!</a>
                 </p>
                 <p>
-                  <a href="contact.html" class="text-reset">Tire Suas Dúvidas!</a>
+                  <a href="./../nav_links/contact.html" class="text-reset">Tire Suas Dúvidas!</a>
                 </p>
                 <p>
-                  <a href="contact.html" class="text-reset">Ajuda!</a>
+                  <a href="./../nav_links/contact.html" class="text-reset">Ajuda!</a>
                 </p>
               </div>
               <!-- Grid column -->
@@ -194,7 +261,7 @@
 
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-          © 2022 Powered by::
+          © 2022 Powered by:
           <a class="text-reset fw-bold" href="https://www.instagram.com/bibi.dev">Bibi</a>
         </div>
         <!-- Copyright -->
@@ -209,3 +276,4 @@
 
 </body>
 </html>
+
